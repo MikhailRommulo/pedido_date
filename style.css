@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(238, 111, 182, 1) 35%,
+    rgba(171, 0, 255, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+}
+
+.yellow {
+  background-color: #f5df61 !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pink {
+  background-color: #ee6fb6 !important;
+}
+
+.purple {
+  background-color: #ab00ff !important;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: absolute;
+  top: 30vh !important;
+}
+
+.bg-modal-sim {
+  background: #ab00ff;
+}
+
+.bg-modal-nao {
+  background: rgb(238, 111, 182);
+}
